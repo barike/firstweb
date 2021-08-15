@@ -1,0 +1,137 @@
+ a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .css3::before {
+    content: "";
+    background-color: #047417;
+    border: 2px solid #3d3f44;
+    position: absolute;
+    left: 8px;
+    right: -8px;
+    top: 10px;
+    bottom: -10px;
+    z-index: -1;
+  }
+
+
+  .css2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  .css3 {
+    background-color: #fff;
+    border: 2px solid #3d3f44;
+    padding: 20px 20px 60px;
+    -webkit-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    position: relative;
+  }
+
+  .css4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #3ba956;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .css4:hover {
+    color: #2e8343;
+  }
+
+  .css5 {
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    color: #111;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 34px;
+    margin-bottom: 13px;
+  }
+
+  .css6 {
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 28px;
+    color: #3ba956;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .css6:hover {
+    color: #2e8343;
+  }
+
+  .css7 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9d9ea3;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    border: 2px solid #c2c2c2;
+    padding: 9px;
+    background: rgb(1, 72, 129);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .css7:hover {
+    background-color: #3ba956;
+    color: #fff;
+    border-color: #3ba956;
+  }
+
+  .css3-small {
+    padding: 20px;
+  }
+
+  .css3-small .css4 {
+    margin-bottom: 0;
+  }
+
+  .css3-small .css5 {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.6;
+    margin-top: 0.3rem;
+  }
+
+  .css1 {
+    padding-bottom: 50px;
+  }
+
+  .css1 h2 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    color: #111;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  @media (max-width: 920px) {
+
+    .css2 {
+      grid-template-columns: 1fr 1fr;
+
+    }
+
+    @media (max-width: 767px) {
+
+      .css2 {
+        grid-template-columns: 1fr;
+
+    }
+}
+  }
