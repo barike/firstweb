@@ -118,20 +118,23 @@
   }
 
 
-
-
-  @media (max-width: 920px) {
-
-    .css2 {
-      grid-template-columns: 1fr 1fr;
-
-    }
-
-    @media (max-width: 767px) {
+  @media (max-width: 1024px) {
+    @media (max-width: 920px) {
 
       .css2 {
-        grid-template-columns: 1fr;
-
+        grid-template-columns: 1fr 1fr;
+  
+      }
+  
+      @media (max-width: 767px) {
+  
+        .css2 {
+          grid-template-columns: 1fr;
+  
+         }  
     }
-}
   }
+
+
+}
+  
