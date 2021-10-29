@@ -39,14 +39,14 @@
         .gg {
             height: auto;
             background: #fefeff;
-            font-size: 1.5em;
+            font-size: 2.5em;
             margin-top: 20px;
         }
 
         .g2 {
             display: grid;
             margin-top: 25px;
-            grid-gap: 1rem;
+            grid-gap: 0.5rem;
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         }
 
@@ -77,13 +77,14 @@
     </style>
 </head>
 
-<body>
+<!-- <body oncontextmenu="return false" , oncopy="return false" onpaste="return false"> -->
+    <body oncontextmenu="return false" , oncopy="return false" onpaste="return false">
     <div class="container">
 
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="./" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-                <h1 class="fs-4" style='text-weight: normal;'>JPGOnline.com</h1>
+                <h1 class="fs-4" style='font-weight: 700px;'>JPGOnline.com</h1>
             </a>
 
             <ul class="nav">
@@ -124,13 +125,13 @@
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-danger">Danger</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-warning">Warning</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-dark">Dark</button><button
-            type="button" class="btn mola btn-outline-primary">Primary</button>
+           style="margin-top: 5px; margin-left: 3px;" type="button" class="btn mola btn-outline-primary">Primary</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-secondary">Secondary</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-success">Success</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-danger">Danger</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-warning">Warning</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-dark">Dark</button><button
-            type="button" class="btn mola btn-outline-primary">Primary</button>
+           style="margin-top: 5px; margin-left: 3px;" type="button" class="btn mola btn-outline-primary">Primary</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-secondary">Secondary</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-success">Success</button>
         <button style="margin-top: 5px;" type="button" class="btn mola btn-outline-danger">Danger</button>
@@ -144,7 +145,7 @@
                 <a style="text-decoration: none;" href="https://www.youtube.com/">
                     <div class="obj">😀</div>
                 </a>
-                <div style=" background: #ff0606;" class="obj">😀</div>
+                <div class="obj">😀</div>
                 <div class="obj">😀</div>
                 <div class="obj">😃</div>
                 <div class="obj">😄</div>
@@ -503,6 +504,18 @@
                 <p class="text-center text-muted">© 2021 JPGOnline.com</p>
             </footer>
         </div>
+        <script>
+            document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            alert('not allowed');
+            return false;
+        } 
+};
+        </script>
 
 
 
