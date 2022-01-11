@@ -1,0 +1,231 @@
+a {
+    text-decoration: none;
+    background-color: transparent
+}
+
+img {
+    border-style: none
+}
+
+
+.ch9::before {
+    background-color: #3ba956;
+    border: 2px solid #3ba956;
+    position: absolute;
+    left: 10px;
+    right: -10px;
+    top: 10px;
+    bottom: -10px;
+    z-index: -1
+}
+
+.ch9.ch8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100% - 10px);
+    border: none
+}
+
+.ch9.ch8 .ch7 {
+    border: 2px solid #3ba956
+}
+
+.ch9.ch8 .ch7 a.ch5 {
+    margin-bottom: 20px
+}
+
+.ch9.ch8 .ch4 {
+    background-color: #3ba956;
+    padding: 10px;
+    position: relative;
+    margin: 10px -10px -4px -2px
+}
+
+.ch9.ch8 .ch4 .arrow-top_desktop {
+    display: inline-block
+}
+
+.ch9.ch8 .ch4 .ch3 {
+    border: 2px solid #fff;
+    height: 100%
+}
+
+.ch6 {
+    max-width: 200px;
+    margin: 50px auto;
+    text-align: center
+}
+
+.ch6 img {
+    max-height: 50px;
+    margin: 0 auto
+}
+
+.ch5 {
+    
+    display: -ms-flexbox;
+    display: flex;
+   
+    -ms-flex-align: center;
+    align-items: center;
+    
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.ch5 img {
+    height: 12px;
+    margin-left: 10px
+}
+
+.ch2 {
+    text-transform: uppercase;
+    margin: 15px 0 !important
+}
+
+
+
+.ch9 {
+    background-color: #fff;
+    border: 2px solid #3ba956;
+    width: 320px;
+    
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    margin-bottom: 40px;
+    font-family: "Source Sans Pro", system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.ch9.ch8 .ch4 .ch2 {
+    margin: 20px 10px 70px
+}
+
+.ch9.ch8 .ch4 .ch1 {
+    border-color: #fff;
+    color: #fff !important;
+    left: 20px;
+    right: 20px;
+    text-decoration: none !important;
+    bottom: 16px;
+    line-height: 1;
+    position: absolute
+}
+
+.ch5 {
+    background-color: #3ba956;
+    
+    display: -ms-flexbox;
+    display: flex;
+    
+    -ms-flex-align: center;
+    align-items: center;
+    
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+    color: #fff !important;
+    text-decoration: none !important;
+    line-height: 1
+}
+
+.ch1 {
+    border: 2px solid #3ba956;
+    text-align: center;
+    color: #3ba956 !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    display: -ms-flexbox;
+    display: flex;
+    
+    -ms-flex-align: center;
+    align-items: center;
+    
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 10px;
+   
+    box-sizing: border-box
+}
+.ch1:hover{
+    background-color: red;
+    color: white;
+}
+
+.ch1 img {
+    height: 12px;
+    margin-left: 5px
+}
+
+.ch2 {
+    list-style-type: none;
+    padding: 0;
+    color: #3d3f44;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.ch2 li {
+   
+    background: url(external-link.png) left top no-repeat;
+    
+    background-size: 15px;
+    padding-left: 23px;
+    padding-top: 0;
+    margin-left: 10px !important;
+    margin: 7px 10px;
+    list-style-type: none !important;
+    line-height: 1;
+    font-family: "Source Sans Pro", system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+
+@media (max-width: 639px) {
+    .ch9 {
+        width: 100%
+    }
+
+    .ch9.ch8 {
+        grid-template-columns: 1fr
+    }
+
+    .ch9.ch8 .ch7 {
+        border-bottom: 0
+    }
+
+    .ch9.ch8 .ch7 a.ch5 {
+        margin-bottom: 0
+    }
+
+    .ch9.ch8 .ch4 .arrow-top_desktop {
+        display: none
+    }
+
+    .ch9.ch8 .ch4 .arrow-top_mobile {
+        display: inline-block
+    }
+
+    .ch9.ch8 .ch4 {
+        background-color: #fff;
+        border: 2px solid #3ba956;
+        border-top: none;
+        padding: 5px 0 0;
+        margin: 0
+    }
+
+    .ch9.ch8 .ch4 .ch2 {
+        margin: 20px 10px !important
+    }
+
+    .ch9.ch8 .ch4 .ch1 {
+        position: initial;
+        border-color: #3ba956;
+        color: #3ba956 !important
+    }
+}
