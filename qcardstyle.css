@@ -133,7 +133,7 @@ img {
 
 .ch1 {
     border: 2px solid #3ba956;
-    text-align: center;
+     text-align: center !important ;
     color: #3ba956 !important;
     text-decoration: none !important;
     text-transform: uppercase;
