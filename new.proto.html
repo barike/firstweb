@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .text_box_fhdgs {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            text-align: center;
+            border-top: 3px solid #39FF14 !important;
+            border-bottom: 3px solid #39FF14 !important;
+            border-left: 3px solid #39FF14 !important;
+            border-right: 3px solid #39FF14 !important;
+
+        }
+
+
+
+
+        .text_bfhds {
+            font-family: "Helvetica Neue";
+            font-size: large !important
+        }
+
+
+        .button {
+            display: inline-block;
+            border-radius: 7px;
+            border: none;
+            background: #1875FF;
+            
+            color: white;
+            font-family: inherit;
+            text-align: center;
+            font-size: 13px;
+            box-shadow: 0px 14px 56px -11px #1875FF;
+            width: 10em;
+            padding: 1em;
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.4s;
+            color: rgb(255, 255, 255);
+        }
+
+        .button span:after {
+            content: 'for free';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.7s;
+        }
+
+        .button:hover span {
+            padding-right: 3.55em;
+        }
+
+        .button:hover span:after {
+            opacity: 4;
+            right: 0;
+        }
+        /* button {
+            background: #FBCA1F;
+            font-family: inherit;
+            padding: 0.6em 1.3em;
+            font-weight: 900;
+            font-size: 18px;
+            border: 3px solid black;
+            border-radius: 0.4em;
+            box-shadow: 0.1em 0.1em;
+        }
+
+        button:hover {
+            transform: translate(-0.05em, -0.05em);
+            box-shadow: 0.15em 0.15em;
+        }
+
+        button:active {
+            transform: translate(0.05em, 0.05em);
+            box-shadow: 0.05em 0.05em;
+        } */
+    </style>
+    <!-- <style>
+        .btn {
+            background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%)
+        }
+
+        .btn {
+            margin: 10px;
+            padding: 15px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border-radius: 10px;
+            display: block;
+            border: 0px;
+            font-weight: 700;
+            box-shadow: 0px 0px 14px -7px #f09819;
+        }
+
+        .btn:hover {
+            background-position: right center;
+            /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+    </style> -->
+</head>
+
+<body>
+    <div>
+        <div class="text_box_fhdgs">
+            <p class="text_bfhds">शरीफ तो हम बचपन से थे पर
+                क्या करें? दिल तोड़ना लड़कियों ने
+                सिखाया हड्डी तोड़ना यारों ने सिखाया!
+
+            </p>
+            <button class="button" style="vertical-align:middle"><a href="https://www.youtube.com/"><span>Download</span></a></button>
+        </div>
+        <div class="text_box_fhdgs">
+            <p class="text_bfhds">शरीफ तो हम बचपन से थे पर
+                क्या करें? दिल तोड़ना लड़कियों ने
+                सिखाया हड्डी तोड़ना यारों ने सिखाया!
+            </p>
+            <button style="vertical-align:middle" class="btn"> Button
+            </button>
+        </div>
+    </div>
+    <script>
+
+        function copyText() {
+            navigator.clipboard.writeText
+                ("Geeksforgeeks is best learning platform.");
+            alert("Geeksforgeeks is best learning platform.");
+        }
+
+    </script>
+
+
+
+    <a style="text-decoration: none; color: black;" href=""> </a>
+</body>
+
+</html>
