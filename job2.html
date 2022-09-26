@@ -18,7 +18,7 @@
 
     <section class="bg-white dark:bg-gray-800">
 
-        <nav class="flex items-center justify-between max-w-3xl p-4 mx-auto">
+        <nav id="myHeader" class="flex items-center justify-between max-w-3xl p-4 mx-auto">
             <a style="width: 150px;" class="inline-flex items-center justify-center  h-10 bg-gray-100 rounded-lg"
                 href="/">
                 Projects👋
@@ -392,7 +392,20 @@
 
 </body>
 
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 
 
