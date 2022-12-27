@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://www.sanfoundry.com/wp-content/cache/autoptimize/css/autoptimize_22020b538a948c352049df2a931d024c.css">
+    <link rel="stylesheet" href="https://www.google.com/cse/static/element/c20e9fb0a344f1f9/default+en.css">
+    <link rel="stylesheet" href="https://www.google.com/cse/static/style/look/v4/default.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="entry-content" itemprop="text">
+      
+        <p>1. What is HTML?<br>
+            a) HTML describes the structure of a webpage<br>
+            b) HTML is the standard markup language mainly used to create web pages<br>
+            c) HTML consists of a set of elements that helps the browser how to view the content<br>
+            d) All of the mentioned<br>
+            <span class="collapseomatic " id="id63a4265bb1f44" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f44" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: HTML is the standard markup language mainly used to create web pages. HTML describes the
+            structure and layout of a webpage. HTML consists of a series of elements that helps the browser how to
+            display content easily.
+        </div>
+
+       
+        <p>2. Who is the father of HTML?<br>
+            a) Rasmus Lerdorf<br>
+            b) Tim Berners-Lee<br>
+            c) Brendan Eich<br>
+            d) Sergey Brin<br>
+            <span class="collapseomatic " id="id63a4265bb1f71" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f71" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: Timothy John Berners-Lee (TimBL) is known as the father of HTML. He is a British computer
+            scientist, best known as the inventor of the World Wide Web.<br>
+        </div>
+        <p>3. HTML stands for __________<br>
+            a) HyperText Markup Language<br>
+            b) HyperText Machine Language<br>
+            c) HyperText Marking Language<br>
+            d) HighText Marking Language<br>
+            <span class="collapseomatic " id="id63a4265bb1f7f" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f7f" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: HTML stands for “HyperText Markup Language”. HTML is the standard markup language mainly used
+            to design and create web pages and web applications. </div>
+        <p>4. What is the correct syntax of doctype in HTML5?<br>
+            a) &lt;/doctype html&gt;<br>
+            b) &lt;doctype html&gt;<br>
+            c) &lt;doctype html!&gt;<br>
+            d) &lt;!doctype html&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1f8a" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f8a" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: The correct syntax of HTML5 doctype is &lt;!doctype html&gt;, doctype is the very first thing
+            to write in HTML5. &lt;!doctype html&gt; or &lt;!DOCTYPE HTML&gt; both are same because ‘doctype’ keyword is
+            not case sensitive.<br>
+        </div>
+        <p>5. Which of the following is used to read an HTML page and render it?<br>
+            a) Web server<br>
+            b) Web network<br>
+            c) Web browser<br>
+            d) Web matrix<br>
+            <span class="collapseomatic " id="id63a4265bb1f94" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f94" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: A web browser (commonly referred to as a browser) is a software application for retrieving,
+            presenting and traversing information resources on the World Wide Web. A web server process, store and
+            display output to the client as per their request. Web matrix is a discontinued cloud-connected website
+            builder and HTML editor for Windows. 
+        
+        </div>
+
+        
+        
+
+       
+        <p>6. Which of the following is not a difference between HTML and XHTML?<br>
+            a) Charset in both html and xhtml is “text/html”<br>
+            b) Tags and attributes are case-insensitive in HTML but not in XHTML<br>
+            c) Special characters must be escaped using character entities in XHTML unlike HTML<br>
+            d) Charset in html is “text/html” where as in xhtml it is “application/xml+xhtml”<br>
+            <span class="collapseomatic " id="id63a4265bb1f9e" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1f9e" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: HTML is case insensitive while XHTML is case sensitive. In XHTML, special characters can be
+            escaped using character entites but not in HTML. Charset in HTML is “text/html” where as it is
+            “application/xml+xhtml” for XHTML.</div>
+        <p>7. Which of the following tag is used for inserting the largest heading in HTML?<br>
+            a) head<br>
+            b) &lt;h1&gt;<br>
+            c) &lt;h6&gt;<br>
+            d) heading<br>
+            <span class="collapseomatic " id="id63a4265bb1fa7" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fa7" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: Headings in HTML starts from &lt;h1&gt; to &lt;h6&gt; in which &lt;h1&gt; heading is the
+            largest one and &lt;h6&gt; is smallest one among those. The heading tags are &lt;h1&gt; &lt;h2&gt;
+            &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; and &lt;h6&gt; that are used for the creations of headings.</div>
+        <p>8. What is DOM in HTML?<br>
+            a) Language dependent application programming<br>
+            b) Hierarchy of objects in ASP.NET<br>
+            c) Application programming interface<br>
+            d) Convention for representing and interacting with objects in html documents<br>
+            <span class="collapseomatic " id="id63a4265bb1fb0" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fb0" class="collapseomatic_content " style="display: none;"> Answer: d<br>
+            Explanation: The Document Object Model is a cross-platform and language-independent application programming
+            interface that treats an HTML, XHTML, or XML document as a tree structure. A document can be viewed as a
+            logical tree with help of DOM Model.</div>
+        <p>9. In which part of the HTML metadata is contained?<br>
+            a) head tag<br>
+            b) title tag<br>
+            c) html tag<br>
+            d) body tag<br>
+            <span class="collapseomatic " id="id63a4265bb1fb9" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fb9" class="collapseomatic_content " style="display: none;"> Answer: a<br>
+            Explanation: Metadata is information about data. The meta tag provides metadata/meta information about the
+            HTML document. Metadata will not be displayed on the page. Metadata is present in head. The body tag defines
+            document’s body. A title tag is an HTML element which specifies the title of a web page. </div>
+
+        
+        </div>
+        <p>10. Which element is used to get highlighted text in HTML5?<br>
+            a) &lt;u&gt;<br>
+            b) &lt;mark&gt;<br>
+            c) &lt;highlight&gt;<br>
+            d) &lt;b&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1fc3" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fc3" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: The &lt;mark&gt; element is used to highlight a section of text. It is useful for quoting a
+            text or if one wants to bring attention to the text. The &lt;b&gt; tag is used to make text/paragraph bold.
+            &lt;u&gt; tag is used to underline the text you wanted.<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1"><span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>This is the example.<span class="sc2">&lt;<span class="kw2">mark</span>&gt;</span> I like this dog. <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">mark</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: This is the example.<mark> I like this dog. </mark><br>
+            </p>
+        </div>
+        <p>11. Which of the following is not a HTML5 tag?<br>
+            a) &lt;track&gt;<br>
+            b) &lt;video&gt;<br>
+            c) &lt;slider&gt;<br>
+            d) &lt;source&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1fcc" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fcc" class="collapseomatic_content " style="display: none;"> Answer: c<br>
+            Explanation: &lt;video&gt; tag is used to display video clips in HTML5. Multiple media resources for media
+            elements is specified by &lt;source&gt; tag. Text track for media elements i.e. &lt;audio&gt; &amp;
+            &lt;video&gt; is provided by &lt;track&gt; tag in HTML5. There is no such thing as slider tag in HTML5.
+        </div>
+        <p>12. How do we write comments in HTML?<br>
+            a) &lt;/…….&gt;<br>
+            b) &lt;!……&gt;<br>
+            c) &lt;/……/&gt;<br>
+            d) &lt;…….!&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1fd5" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fd5" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: Browser ignores comment in a code. There are always two types of command i.e. single line
+            command and multiple line command. If one wants to add a comment in code, add the text between these
+            characters &lt;!…..comment….&gt;. It will not visible in the user’s browser.</div>
+
+        <div id="sf-ads-mi3-336-280" class="sf-mobile-ads">
+            <div style="font-size:13px; text-align: center;">advertisement</div>
+            <div id="00000001-03ba39c9-c0d8-4c30-94de-afca76fea14a" class="_ap_apex_ad"
+                data-section="00000001-03ba39c9-c0d8-4c30-94de-afca76fea14a"
+                data-orig-id="21eae76a-c83f-42b0-aec5-01d590a53f37" data-render-time="1672166649735">
+                
+            </div>
+        </div>
+        <p>13. Which of the following elements in HTML5 defines video or movie content?<br>
+            a) &lt;video&gt;<br>
+            b) &lt;movie&gt;<br>
+            c) &lt;audio&gt;<br>
+            d) &lt;media&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1fde" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fde" class="collapseomatic_content " style="display: none;"> Answer: a<br>
+            Explanation: The media to which linked document is optimized is given by &lt;media&gt; tag. Before HTML5,
+            videos could only be played with a plug-in (like flash). The HTML5 video element specifies a standard way to
+            embed a video in a webpage. As like &lt;video&gt; elements, &lt;audio&gt; element contains additional files
+            or streams like music, recording, etc.</div>
+        <p>14. Which of the following is not the element associated with the HTML table layout?<br>
+            a) alignment<br>
+            b) color<br>
+            c) size<br>
+            d) spanning<br>
+            <span class="collapseomatic " id="id63a4265bb1fe6" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fe6" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: There are three elements in HTML table layout i.e. size, spanning and alignment. Layout type
+            can be achieved by setting Rows elements layout attribute to Fixed or Auto. Auto attribute relies on browser
+            compatibility whereas fixed layout relies on developer specification.</div>
+        <p>15. Which element is used for or styling HTML5 layout?<br>
+            a) CSS<br>
+            b) jQuery<br>
+            c) JavaScript<br>
+            d) PHP<br>
+            <span class="collapseomatic " id="id63a4265bb1fef" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1fef" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: For styling HTML5, CSS i.e Cascading Style Sheet is used. It is style sheet language and
+            designed to describe presentation of its content including layouts, colors and fonts. CSS can control the
+            layout of multiple webpages. </div>
+        <p>16. Which HTML tag is used for making character appearance bold?<br>
+            a) &lt;u&gt;content&lt;/u&gt;<br>
+            b) &lt;b&gt;content&lt;/b&gt;<br>
+            c) &lt;br&gt;content&lt;/br&gt;<br>
+            d) &lt;i&gt;content&lt;/i&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb1ff8" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb1ff8" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: By enclosing words in the tags &lt;b&gt;and&lt;/b&gt; we can make characters appear bold.
+            &lt;i&gt; element is for content in italics, &lt;u&gt; is for underlined content, &lt;br&gt; is for vertical
+            breaking.</div>
+        <p>17. Which HTML tag is used to insert an image?<br>
+            a) &lt;img url=”htmllogo.jpg” /&gt;<br>
+            b) &lt;img alt=”htmllogo.jpg” /&gt;<br>
+            c) &lt;img src=”htmllogo.jpg” /&gt;<br>
+            d) &lt;img link=”htmllogo.jpg” /&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2001" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2001" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: In HTML, &lt;img&gt; tag is used to insert an image in HTML page. Image tag has two attributes
+            (src and Alt).<br>
+            –&gt; Src attribute is used to specify the image path.<br>
+            –&gt; Alt attribute is used to specify the alternate text for the image.</div>
+
+        <div id="sf-ads-mi4-336-280" class="sf-mobile-ads">
+            <div style="font-size:13px; text-align: center;">advertisement</div>
+            <div id="00000001-5aac245e-20fe-4e09-bf24-74e07cc6a790" class="_ap_apex_ad"
+                data-section="00000001-5aac245e-20fe-4e09-bf24-74e07cc6a790"
+                data-orig-id="90f55663-effd-4105-b1e7-29d86b526544" data-render-time="1672166649735">
+               
+            </div>
+        </div>
+        <p>18. HTML is a subset of ___________<br>
+            a) SGMT<br>
+            b) SGML<br>
+            c) SGME<br>
+            d) XHTML<br>
+            <span class="collapseomatic " id="id63a4265bb200a" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb200a" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: HTML is a subset of SGML. SGML (Standard Generalized Markup Language) is a standard for
+            specifying a document markup language or tag set.</div>
+        <p>19. Which character is used to represent when a tag is closed in HTML?<br>
+            a) #<br>
+            b) !<br>
+            c) /<br>
+            d) \<br>
+            <span class="collapseomatic " id="id63a4265bb2013" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2013" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: The forward-slash (/) is used to indicate the closure of a tag within HTML.</div>
+        <p>20. Which of the following HTML code will make an image clickable?<br>
+            a)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="text">
+                                    <pre
+                                        class="de1">&lt;a href="https://www.sanfoundry.com/"&gt;Sanfoundry Home Page&lt;/a&gt;</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>b)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="text">
+                                    <pre class="de1">&lt;img src="https://www.sanfoundry.com/sanfoundry-logo"&gt;
+&lt;a href="https://www.sanfoundry.com/"&gt;Sanfoundry  Home Page&lt;/a&gt;
+&lt;/img&gt;</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>c)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="text">
+                                    <pre class="de1">&lt;a href="https://www.sanfoundry.com/"&gt;Sanfoundry Home Page&lt;/a&gt;
+&lt;img src="https://www.sanfoundry.com/sanfoundry-logo" /&gt;</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>d)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="text">
+                                    <pre
+                                        class="de1">&lt;a href="https://www.sanfoundry.com/"&gt;&lt;img src="https://www.sanfoundry.com/sanfoundry-logo" /&gt;&lt;/a&gt;</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <span class="collapseomatic " id="id63a4265bb201b" tabindex="" title="View Answer">View Answer</span>
+        <div id="target-id63a4265bb201b" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another page. Suppose
+            if we want an image to be clickable then it should go inside &lt;a&gt; Tag.</div>
+        &nbsp;<br>&nbsp;<p></p>
+        <p>21. Among the following, which is the HTML paragraph tag?<br>
+            a) &lt;p&gt;<br>
+            b) &lt;pre&gt;<br>
+            c) &lt;hr&gt;<br>
+            d) &lt;a&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2025" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2025" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: &lt;p&gt; tag is used for paragraph in HTML.</div>
+        <p>22. In HTML, which attribute is used to create a link that opens in a new window tab?<br>
+            a) src=”_blank”<br>
+            b) alt=”_blank”<br>
+            c) target=”_self”<br>
+            d) target=”_blank”<br>
+            <span class="collapseomatic " id="id63a4265bb202e" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb202e" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: Add the target=”_blank” attribute in the Anchor tag. target=”_blank” attribute makes a link
+            open in a new window tab.</div>
+        <p>23. Which HTML element is used for short quote?<br>
+            a) &lt;em&gt;<br>
+            b) &lt;abbr&gt;<br>
+            c) &lt;q&gt;<br>
+            d) &lt;blockquote&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2037" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2037" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: &lt;em&gt; element indicates emphasis, browser will show the contents of &lt;em&gt; element in
+            italic. A section which is quoted from another source is specified by &lt;blockquote&gt;. The &lt;abbr&gt;
+            defines abbreviation. We used &lt;q&gt; element for shorter quote. Browser put quote around &lt;q&gt;
+            element.<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1"><span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>This is a <span class="sc2">&lt;<span class="kw2">q</span>&gt;</span>black dog<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">q</span>&gt;</span>.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: This is a “black dog”.</p>
+        </div>
+        <p>24. Which of the following HTML tag is used to create an unordered list?<br>
+            a) &lt;ol&gt;<br>
+            b) &lt;ul&gt;<br>
+            c) &lt;li&gt;<br>
+            d) &lt;ll&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2040" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2040" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: &lt;ul&gt; tag is used to create the unordered list items in an HTML document. By default,
+            unordered list items will display in a bulleted format.<br>
+            Different types of unordered list Attribute Values are:<p></p>
+            <li>Disc</li>
+            <li>Circle</li>
+            <li>Square</li>
+            <li>None</li>
+            <p>Syntax: &lt;ul&gt; Unordered List Items &lt;/ul&gt; </p>
+        </div>
+        <p>25. Which HTML element is used for abbreviation or acronym?<br>
+            a) &lt;abbr&gt;<br>
+            b) &lt;blockquote&gt;<br>
+            c) &lt;q&gt;<br>
+            d) &lt;em&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2048" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2048" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: &lt;em&gt; element indicates emphasis, browser will show the contents of &lt;em&gt; element in
+            italic. We used &lt;q&gt; element for shorter quote. Browser put quote around &lt;q&gt; element. A section
+            which is quoted from another source is specified by &lt;blockquote&gt;. For using, abbreviation or acronym
+            &lt;abbr&gt; element is helpful. A title element is to be used with abbr.<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1"><span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>The <span class="sc2">&lt;<span class="kw2">abbr</span> <span class="kw3">title</span><span class="sy0">=</span>”Doctor”&gt;</span>Dr.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">abbr</span>&gt;</span> is on the way.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: The <abbr title="”Doctor”">Dr.</abbr> is on the way. </p>
+        </div>
+        <p>26. Which of the following HTML tag is used to add a row in a table?<br>
+            a) &lt;th&gt;<br>
+            b) &lt;td&gt;<br>
+            c) &lt;tr&gt;<br>
+            d) &lt;tt&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2051" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2051" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: In HTML, &lt;tr&gt; tag is used to create a row in the table. &lt;th&gt; tag is used to set the
+            header cell of a table. </div>
+        <p>27. What is the work of &lt;address&gt; element in HTML5?<br>
+            a) contains IP address<br>
+            b) contains home address<br>
+            c) contains url<br>
+            d) contains contact details for author<br>
+            <span class="collapseomatic " id="id63a4265bb205a" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb205a" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: The contact details for author of a page is specified by &lt;address&gt; attribute. The content
+            is often displayed in italics,<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre class="de1">e.g. 
+<span class="sc2">&lt;<span class="kw2">address</span>&gt;</span>
+<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"mailto:enquiry@sanfoundry.com"</span>&gt;</span>Sanfoundry<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">address</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: </p>
+            <address>
+                <a href="mailto:enquiry@sanfoundry.com">Sanfoundry</a><br>
+            </address>
+            <p> </p>
+        </div>
+        <p>28. Which of the following tag is used to create a text area in HTML Form?<br>
+            a) &lt;textarea&gt; &lt;/textarea&gt;<br>
+            b) &lt;text&gt;&lt;/text&gt;<br>
+            c) &lt;input type=”text” /&gt;<br>
+            d) &lt;input type=”textarea” /&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2077" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2077" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: The text area tag (&lt;textarea&gt;) is used in a form to declare a text area element. It
+            allows the user to enter text in multiple rows. </div>
+        <p>29. To show deleted text, which HTML element is used?<br>
+            a) &lt;del&gt;<br>
+            b) &lt;em&gt;<br>
+            c) &lt;strong&gt;<br>
+            d) &lt;ins&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2082" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2082" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: &lt;strong&gt; element shows the importance of text/paragraph between it’s tags. &lt;em&gt;
+            element indicates emphasis, browser will show the contents of &lt;em&gt; element in italic. &lt;ins&gt;
+            element shows the content that has been inserted, usually it has underline. &lt;del&gt; element shows text
+            that has been deleted from, usually it has a line through the content.<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1"><span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>This is <span class="sc2">&lt;<span class="kw2">del</span>&gt;</span>not<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">del</span>&gt;</span> for deletion <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: This is <del>not</del> for deletion.</p>
+        </div>
+        <p>30. What is the correct syntax of web address?<br>
+            a) port://domain.filenmae:path/scheme/prefix<br>
+            b) prefix://scheme.port:domain/filename/path<br>
+            c) path://prefix.port:domain/filename/scheme<br>
+            d) scheme://prefix.domain:port/path/filename<br>
+            <span class="collapseomatic " id="id63a4265bb208c" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb208c" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: The correct syntax for a web address is scheme://prefix.domain:port/path/filename, where scheme
+            is for https or http, prefix is for domain like www, domain denotes domain name, port defines port number,
+            path defines path at server, filename is for name of the document. </div>
+        <p>31. Which tag is used to create a dropdown in HTML Form?<br>
+            a) &lt;input&gt;<br>
+            b) &lt;select&gt;<br>
+            c) &lt;text&gt;<br>
+            d) &lt;textarea&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2096" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2096" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: &lt;select&gt; element is used to create a drop-down list in HTML Forms. It is mainly used to
+            collect user input. Option tags are used within the &lt;select&gt; element to define available options from
+            the drop-down list.</div>
+        <p>32. Which tag is used to create a numbered list in HTML?<br>
+            a) &lt;ol&gt;<br>
+            b) &lt;ul&gt;<br>
+            c) &lt;li&gt;<br>
+            d) &lt;ll&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20a0" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20a0" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: &lt;ol&gt; tag is used to create the numbered list or ordered list items in an HTML document.
+            An ordered list can be numerical or alphabetical order. &lt;li&gt; tag is used to define each list item.<br>
+            Syntax: &lt;ol&gt; Ordered List Items &lt;/ol&gt; </div>
+        <p>33. How to create a checkbox in HTML Form?<br>
+            a) &lt;input type=”text”&gt;<br>
+            b) &lt;input type=”textarea”&gt;<br>
+            c) &lt;input type=”checkbox”&gt;<br>
+            d) &lt;input type=”button”&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20a9" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20a9" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: &lt;input type=”checkbox”&gt; is used to create a checkbox in HTML Form. Checkboxes allow a
+            user to select one or more options of a limited number of choices.</div>
+        <p>34. How to insert Hyperlink in HTML Page?<br>
+            a)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="html5">
+                                    <pre
+                                        class="de1"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"https://www.sanfoundry.com/1000-html-questions-answers/"</span>&gt;</span>HTML MCQ<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>b)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="html5">
+                                    <pre
+                                        class="de1"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">"https://www.sanfoundry.com/1000-html-questions-answers/"</span> HTML Quiz <span class="sy0">/</span>&gt;</span></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>c)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="html5">
+                                    <pre
+                                        class="de1"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"https://www.sanfoundry.com/1000-html-questions-answers/"</span>&gt;</span>HTML Test<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>d)</p>
+
+
+        <div class="hk1_style-wrap5">
+            <div class="hk1_style-wrap4">
+                <div class="hk1_style-wrap3">
+                    <div class="hk1_style-wrap2">
+                        <div class="hk1_style-wrap">
+                            <div class="hk1_style">
+                                <div class="html5">
+                                    <pre
+                                        class="de1"><span class="sc2">&lt;<span class="kw2">a</span>&gt;</span>https://www.sanfoundry.com/1000-html-questions-answers/<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <span class="collapseomatic " id="id63a4265bb20b3" tabindex="" title="View Answer">View Answer</span>
+        <div id="target-id63a4265bb20b3" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: An anchor tag (&lt;a&gt;) and href attribute are used to create a hyperlink in HTML.</div>
+        &nbsp;<br>&nbsp;<p></p>
+        <p>35. Which of the following extension is used to save an HTML file?<br>
+            a) .hl<br>
+            b) .h<br>
+            c) .htl<br>
+            d) .html<br>
+            <span class="collapseomatic " id="id63a4265bb20bd" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20bd" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: .html or .htm extensions are used to save the HTML file.</div>
+        <p>36. Which tag is used to create a blank line in HTML?<br>
+            a) &lt;b&gt;<br>
+            b) &lt;br&gt;<br>
+            c) &lt;em&gt;<br>
+            d) &lt;a&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20c7" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20c7" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: In HTML, &lt;br&gt; tag is used to create a blank line. &lt;b&gt; tag is used to specify the
+            bold text. &lt;em&gt; tag is used to define the emphasized text.</div>
+        <p>37. Which HTML tag is used to convert the plain text into italic format?<br>
+            a) &lt;b&gt;<br>
+            b) &lt;p&gt;<br>
+            c) &lt;i&gt;<br>
+            d) &lt;a&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20d0" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20d0" class="collapseomatic_content " style="display: none;">Answer: c<br>
+            Explanation: In HTML, &lt;i&gt; tag is used to convert the plain text into italic format. </div>
+        <p>38. What is the use of &lt;hr/&gt; tag in HTML?<br>
+            a) For making content appearance italics<br>
+            b) To create vertical rule between sections<br>
+            c) To create a line break<br>
+            d) To create horizontal rule between sections<br>
+            <span class="collapseomatic " id="id63a4265bb20da" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20da" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: To create a break between themes-such as a change of topic in a book or a new scene in a
+            play-you can add a horizontal rule between sections using &lt;hr/&gt; tag</div>
+        <p>39. Which attribute is not essential under &lt;iframe&gt;?<br>
+            a) frameborder<br>
+            b) width<br>
+            c) height<br>
+            d) src<br>
+            <span class="collapseomatic " id="id63a4265bb20e4" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20e4" class="collapseomatic_content " style="display: none;">Answer: a<br>
+            Explanation: An iframe is equivalent to a window that has been cut into our page, it is created using
+            &lt;iframe&gt; element. Src, height, width attribute are essentially used inside of this. Src attribute
+            specifies the URL of the page which is to be shown. Height and width specify the height and width of an
+            iframe in pixels.</div>
+        <p>40. Which works similar to &lt;b&gt; element?<br>
+            a) &lt;blockquote&gt;<br>
+            b) &lt;strong&gt;<br>
+            c) &lt;em&gt;<br>
+            d) &lt;i&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20ee" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20ee" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: The words are written inside &lt;strong&gt; can be said with strong emphasis. Browser shows
+            contents written inside &lt;strong&gt; element in bold.<br>
+            Example:<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1"><span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>1000 <span class="sc2">&lt;<span class="kw2">strong</span>&gt;</span>HTML<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">strong</span>&gt;</span> MCQs.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Output: 1000 <strong>HTML</strong> MCQs.</p>
+        </div>
+        <p>41. Which tag is used to underline the text in HTML?<br>
+            a) &lt;p&gt;<br>
+            b) &lt;u&gt;<br>
+            c) &lt;i&gt;<br>
+            d) &lt;ul&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb20f8" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb20f8" class="collapseomatic_content " style="display: none;">Answer: b<br>
+            Explanation: In HTML, underline tag (&lt;u&gt;) is used to display the underlined text.<br>
+            Example: HTML stands for &lt;u&gt;HyperText Markup Language&lt;/u&gt;.</div>
+        <p>42. Which attribute specifies a unique alphanumeric identifier to be associated with an element?<br>
+            a) type<br>
+            b) article<br>
+            c) id<br>
+            d) class<br>
+            <span class="collapseomatic " id="id63a4265bb2101" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2101" class="collapseomatic_content " style="display: none;"> Answer: c<br>
+            Explanation: HTML is Hyper Text Markup Language that is used to create web pages and applications. The id
+            attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to
+            manipulate the element with the specific id. Class is a name given to HTML elements that can be used by CSS
+            and JavaScript for styling web pages. A self-contained content is called an attribute.</div>
+        <p>43. Which of the following is an HTML specification used to add more information to HTML tags?<br>
+            a) Modifydata<br>
+            b) Minidata<br>
+            c) Macrodata<br>
+            d) Microdata<br>
+            <span class="collapseomatic " id="id63a4265bb210b" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb210b" class="collapseomatic_content " style="display: none;"> Answer: d<br>
+            Explanation: The Microdata spec provides a standardized syntax for additional semantic markup to your web
+            pages to enhance the machine readability of your web pages. The planning for distribution center operation
+            is offered by minidata. Macrodata and Modifydata are not any terms related to HTML5.</div>
+        <p>44. Which HTML element is used for YouTube videos?<br>
+            a) &lt;samp&gt;<br>
+            b) &lt;small&gt;<br>
+            c) &lt;frame&gt;<br>
+            d) &lt;iframe&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb2115" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb2115" class="collapseomatic_content " style="display: none;">Answer: d<br>
+            Explanation: We can host our videos through YouTube and can easily embed them into our website.
+            &lt;iframe&gt; tag will be used for YouTube videos.<p></p>
+
+
+            <div class="hk1_style-wrap5">
+                <div class="hk1_style-wrap4">
+                    <div class="hk1_style-wrap3">
+                        <div class="hk1_style-wrap2">
+                            <div class="hk1_style-wrap">
+                                <div class="hk1_style">
+                                    <div class="html5">
+                                        <pre
+                                            class="de1">E.g. <span class="sc2">&lt;<span class="kw2">iframe</span> <span class="kw3">width</span><span class="sy0">=</span>”<span class="nu0">670</span>” <span class="kw3">height</span><span class="sy0">=</span>”<span class="nu0">612</span>” <span class="kw3">src</span><span class="sy0">=</span> “https:<span class="sy0">//</span>sanfoundry.com”&gt;</span> <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">iframe</span>&gt;</span></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p> </p>
+        </div>
+        <p>45. Which of the following HTML element is used for canvas graphics?<br>
+            a) &lt;css&gt;<br>
+            b) &lt;paint&gt;<br>
+            c) &lt;canvas&gt;<br>
+            d) &lt;graphic&gt;<br>
+            <span class="collapseomatic " id="id63a4265bb211f" tabindex="" title="View Answer">View Answer</span>
+        </p>
+        <div id="target-id63a4265bb211f" class="collapseomatic_content " style="display: none;"> Answer: c<br>
+            Explanation: CSS i.e. Cascading Style Sheet is a scripting language. Canvas graphics are introduced in
+            HTML5. Element used for canvas graphics is &lt;canvas&gt;. The HTML canvas element is used to draw graphics,
+            on the fly, via scripting (usually JavaScript).
+        </div>
+        
+    </div>
+</body>
+
+</html>
