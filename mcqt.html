@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="mcq48.png">
+    <meta content="MCQ.MONSTER is an amazing online platform for students and
+    working professionals to enhance their knowledge and skills! With over 1 million+ multiple choice
+    questions & answers (MCQs), tutorials, programs & algorithms in engineering, programming, science, and
+    school subjects, it's a great resource for anyone looking to brush up on their knowledge or learn
+    something new. You can easily scroll down for the list of popular topics or search for specific topics
+    you're interested in. With MCQ.MONSTER, you can take your education and learn to the next level">
+    <title>Document</title>
+    <link rel="stylesheet" href="cut.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+    <!-- hgf -->
+    <!-- <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">MCQ.MONSTER</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+    </ul>
+  </nav> -->
+
+    <!-- hfg -->
+
+
+
+
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a style="padding-left: 7%;" class="navbar-brand"
+                href="https://barike.github.io/firstweb/mcq_monster2.html"><b style="color: #2e8343;">MCQ.MONSTER</b>
+                <img src="mcq48.png" alt="Logo" width="48" height="48" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <a class="navbar-brand" href="#"><b
+                                style="color: #2e8343;">MCQ.MONSTER</b>
+                            <img src="mcq48.png" alt="Logo" width="40" height="30"
+                                class="d-inline-block align-text-top">
+                        </a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</head>
+<style>
+    b {
+        padding: 15px;
+
+
+    }
+
+    .mcq_footer {
+        background-color: #EAFEEA;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!-- <H2 style="color: #198754;">NOTES</H2> -->
+            <p style="font-size: 18px; padding-top: 75px;">MCQ.MONSTER is an amazing online platform for students and
+                working professionals to enhance their knowledge and skills! With over 1 million+ multiple choice
+                questions & answers (MCQs), tutorials. With MCQ.MONSTER</p>
+
+        </div>
+
+
+
+
+
+
+
+        <div id="gg">
+
+
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">1. UNIVAC is</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> universal automatic computer</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> universal array computer</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> unique automatic computer</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> unvalued automatic computer</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3171/univac-is" target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">a.</span><span
+                            class="p">universal automatic computer</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">2. The basic operations performed by a computer are
+                    </h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> arithmetic operation</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> logical operation</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> storage and relative</p><span
+                        class="ezoic-autoinsert-video ezoic-under_second_paragraph"></span>
+                    <p class="options"><span class="text-uppercase h6">d.</span> all the above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3172/the-basic-operations-performed-by-a-computer-are"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">all
+                            the above</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"><span
+                    id="ezoic-pub-ad-placeholder-121"></span><span
+                    class="ezoic-ad ezoic-at-0 large-mobile-banner-1 large-mobile-banner-1121 adtester-container adtester-container-121"
+                    data-ez-name="mcqmate_com-large-mobile-banner-1" style="min-height: 400px;"><span
+                        id="div-gpt-ad-mcqmate_com-large-mobile-banner-1-0" ezaw="580" ezah="400"
+                        style="position: relative; z-index: 0; padding: 0px; width: 100%; max-width: 1200px; min-height: 400px; min-width: 580px; margin-left: auto !important; margin-right: auto !important;"
+                        class="ezoic-ad ezfound" data-google-query-id="CNDJuOW6pvwCFe-lZgIdQmcFjQ">
+                        <div id="google_ads_iframe_/1254144,22685573517/mcqmate_com-large-mobile-banner-1_0__container__"
+                            style="border: 0pt none;"><iframe
+                                id="google_ads_iframe_/1254144,22685573517/mcqmate_com-large-mobile-banner-1_0"
+                                name="google_ads_iframe_/1254144,22685573517/mcqmate_com-large-mobile-banner-1_0"
+                                title="3rd party ad content" width="580" height="400" scrolling="no" marginwidth="0"
+                                marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0"
+                                sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                style="border: 0px; vertical-align: bottom;" data-load-complete="true"
+                                data-google-container-id="1"></iframe></div>
+                    </span></span></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">3. The two major types of computer chips are</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> external memory chip</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> primary memory chip</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> microprocessor chip</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> both b and c</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3173/the-two-major-types-of-computer-chips-are"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">both b
+                            and c</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">4. Microprocessors as switching devices are for which
+                        generation computers</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> first generation</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> second generation</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> third generation</p><span
+                        class="ezoic-autoinsert-video ezoic-mid_content"></span>
+                    <p class="options"><span class="text-uppercase h6">d.</span> fourth generation</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3174/microprocessors-as-switching-devices-are-for-which-generation-computers"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">fourth
+                            generation</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"><span
+                    id="ezoic-pub-ad-placeholder-117"></span><span
+                    class="ezoic-ad ezoic-at-0 medrectangle-3 medrectangle-3117 adtester-container adtester-container-117"
+                    data-ez-name="mcqmate_com-medrectangle-3" style="display: none !important;"><span
+                        id="div-gpt-ad-mcqmate_com-medrectangle-3-0" ezaw="728" ezah="90"
+                        style="position:relative;z-index:0;display:inline-block;padding:0;min-height:90px;min-width:728px"
+                        class="ezoic-ad ezfound" data-google-query-id="CLvlt-K6pvwCFYeXZgIdlEcK8w">
+                        <script data-ezscrex="false" data-cfasync="false"
+                            style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[728, 90], 'mcqmate_com-medrectangle-3', 'ezslot_2', 117, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-medrectangle-3-0');</script>
+                        <div id="google_ads_iframe_/1254144,22685573517/mcqmate_com-medrectangle-3_0__container__"
+                            style="border: 0pt none; width: 728px; height: 0px;"></div>
+                    </span></span></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">5. What is the main difference between a mainframe and
+                        a super computer?</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> super computer is much larger than
+                        mainframe computers</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> super computers are much smaller
+                        than mainframe computers</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> supercomputers are focused to
+                        execute few programs as fast as possible while mainframe uses its power to execute as many
+                        programs concurrently</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> supercomputers are focused to
+                        execute as many programs as possible while mainframe uses its power to execute few programs
+                        as fast as possible.</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3175/what-is-the-main-difference-between-a-mainframe-and-a-super-computer"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">supercomputers are focused to execute few programs as fast as possible while
+                            mainframe uses its power to execute as many programs concurrently</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">6. ASCII and EBCDIC are the popular character coding
+                        systems. What does EBCDIC stand for?</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> extended binary coded decimal
+                        interchange code</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> extended bit code decimal
+                        interchange code</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> extended bit case decimal
+                        interchange code</p><span class="ezoic-autoinsert-ad ezoic-under_first_paragraph"></span>
+                    <p class="options"><span class="text-uppercase h6">d.</span> extended binary case decimal
+                        interchange code</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3176/ascii-and-ebcdic-are-the-popular-character-coding-systems-what-does-ebcdic-stand-for"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">a.</span><span
+                            class="p">extended binary coded decimal interchange code</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">7. The brain of any computer system is</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> alu</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> memory</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> cpu</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> control unit</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3177/the-brain-of-any-computer-system-is"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">cpu</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">8. Storage capacity of magnetic disk depends on</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> tracks per inch of surface</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> bits per inch of tracks</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> disk pack in disk surface</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> all of above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3178/storage-capacity-of-magnetic-disk-depends-on"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">all of
+                            above</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"><span
+                    id="ezoic-pub-ad-placeholder-118"></span><span
+                    class="ezoic-ad ezoic-at-0 medrectangle-4 medrectangle-4118 adtester-container adtester-container-118"
+                    data-ez-name="mcqmate_com-medrectangle-4"><span id="div-gpt-ad-mcqmate_com-medrectangle-4-0"
+                        ezaw="250" ezah="250"
+                        style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto!important;margin-right:auto!important;min-height:250px;min-width:250px"
+                        class="ezoic-ad">
+                        <script data-ezscrex="false" data-cfasync="false"
+                            style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[250, 250], 'mcqmate_com-medrectangle-4', 'ezslot_8', 118, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-medrectangle-4-0');</script>
+                    </span></span></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">9. The two kinds of main memory are:</h2>
+                </div><span class="ezoic-autoinsert-video ezoic-long_content"></span>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> primary and secondary</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> random and sequential</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> rom and ram</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> all of above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3179/the-two-kinds-of-main-memory-are"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span class="p">rom
+                            and ram</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">10. A storage area used to store data to a compensate
+                        for the difference in speed at which the different units can handle data is</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> memory</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> buffer</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> accumulator</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> address</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3180/a-storage-area-used-to-store-data-to-a-compensate-for-the-difference-in-speed-at-which-the-different-units-can-handle-data-is"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span
+                            class="p">buffer</span></div><span
+                        class="ezoic-autoinsert-ad ezoic-under_second_paragraph"></span>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">11. Computer is free from tiresome and boardoom. We
+                        call it</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> accuracy</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> reliability</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> diligence</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> versatility</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3181/computer-is-free-from-tiresome-and-boardoom-we-call-it"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">diligence</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">12. Integrated Circuits (Ics) are related to which
+                        generation of computers?</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> first generation</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> second generation</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> third generation</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> fourth generation</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3182/integrated-circuits-ics-are-related-to-which-generation-of-computers"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span class="p">third
+                            generation</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"><span
+                    id="ezoic-pub-ad-placeholder-119"></span><span
+                    class="ezoic-ad ezoic-at-0 large-leaderboard-2 large-leaderboard-2119 adtester-container adtester-container-119"
+                    data-ez-name="mcqmate_com-large-leaderboard-2"><span
+                        id="div-gpt-ad-mcqmate_com-large-leaderboard-2-0" ezaw="580" ezah="400"
+                        style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto!important;margin-right:auto!important;min-height:90px;min-width:728px"
+                        class="ezoic-ad">
+                        <script data-ezscrex="false" data-cfasync="false"
+                            style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[580, 400], 'mcqmate_com-large-leaderboard-2', 'ezslot_6', 119, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-large-leaderboard-2-0');</script>
+                    </span></span></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">13. CD-ROM is a</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> semiconductor memory</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> memory register</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> magnetic memory</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> none of above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3183/cd-rom-is-a" target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">none
+                            of above</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">14. A hybrid computer</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> resembles digital computer</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> resembles analogue computer</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> resembles both a digital and
+                        analogue computer</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> none of the above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3184/a-hybrid-computer" target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">resembles both a digital and analogue computer</span></div><span
+                        class="ezoic-autoinsert-ad ezoic-mid_content"></span><span style="clear:both;display:block"
+                        id="ez-clearholder-box-4"></span><span
+                        class="ezoic-ad ezoic-at-0 box-4 box-4260 adtester-container adtester-container-260"
+                        data-ez-name="mcqmate_com-box-4"><span id="div-gpt-ad-mcqmate_com-box-4-0" ezaw="250" ezah="250"
+                            style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto!important;margin-right:auto!important;min-height:400px;min-width:580px"
+                            class="ezoic-ad">
+                            <script data-ezscrex="false" data-cfasync="false"
+                                style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[250, 250], 'mcqmate_com-box-4', 'ezslot_10', 260, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-box-4-0');</script>
+                        </span></span>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">15. Which type of computers uses the 8-bit code called
+                        EBCDIC?</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> minicomputers</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> microcomputers</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> mainframe computers</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> super computer</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3185/which-type-of-computers-uses-the-8-bit-code-called-ebcdic"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">mainframe computers</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">16. The ALU of a computer responds to the commands
+                        coming from</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> primary memory</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> control section</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> external memory</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> cache memory</p><span
+                        class="ezoic-autoinsert-video ezoic-longer_content"></span>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3186/the-alu-of-a-computer-responds-to-the-commands-coming-from"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span
+                            class="p">control section</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"><span id="ezoic-pub-ad-placeholder-120"></span>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">17. Chief component of first generation computer was
+                    </h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> transistors</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> vacuum tubes and valves</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> integrated circuits</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> none of above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3187/chief-component-of-first-generation-computer-was"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span class="p">vacuum
+                            tubes and valves</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">18. To produce high quality graphics (hardcopy) in
+                        color, you would want to use a/n</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> rgb monitor</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> plotter</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> ink-jet printer</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> laser printer</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3188/to-produce-high-quality-graphics-hardcopy-in-color-you-would-want-to-use-an"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span
+                            class="p">plotter</span></div><span
+                        class="ezoic-autoinsert-ad ezoic-long_content"></span><span style="clear:both;display:block"
+                        id="ez-clearholder-banner-1"></span><span
+                        class="ezoic-ad ezoic-at-0 banner-1 banner-1360 adtester-container adtester-container-360"
+                        data-ez-name="mcqmate_com-banner-1"><span id="div-gpt-ad-mcqmate_com-banner-1-0" ezaw="336"
+                            ezah="280"
+                            style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto!important;margin-right:auto!important;min-height:400px;min-width:580px"
+                            class="ezoic-ad">
+                            <script data-ezscrex="false" data-cfasync="false"
+                                style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[336, 280], 'mcqmate_com-banner-1', 'ezslot_7', 360, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-banner-1-0');</script>
+                        </span></span>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">19. What are the stages in the compilation process?
+                    </h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> feasibility study, system design
+                        and testing</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> implementation and documentation
+                    </p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> lexical analysis, syntax analysis,
+                        and code generation</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> none of the above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3189/what-are-the-stages-in-the-compilation-process"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span
+                            class="p">lexical analysis, syntax analysis, and code generation</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">20. Which of the following IC was used in third
+                        generation of computers?</h2>
+                </div><span class="ezoic-autoinsert-video ezoic-longest_content"></span>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> ssi</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> msi</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> lsi</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> both a and b</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3190/which-of-the-following-ic-was-used-in-third-generation-of-computers"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">both a
+                            and b</span></div><span class="ezoic-autoinsert-ad ezoic-longer_content"></span>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">21. The main electronic component used in first
+                        generation computers was</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> transistors</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> vacuum tubes and valves</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> integrated circuits</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> none of above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3191/the-main-electronic-component-used-in-first-generation-computers-was"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span class="p">vacuum
+                            tubes and valves</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">22. A dumb terminal has</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> an embedded microprocessor</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> extensive memory</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> independent processing capability
+                    </p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> a keyboard and screen</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3192/a-dumb-terminal-has"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">d.</span><span class="p">a
+                            keyboard and screen</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">23. One millisecond is</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> 1 second</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> 10th of a seconds</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> 1000th of a seconds</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> 10000th of a seconds</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3193/one-millisecond-is" target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">c.</span><span class="p">1000th
+                            of a seconds</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">24. The output quality of a printer is measured by
+                        ..........</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> dot per sq. inch</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> dot per inch</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> dots printed per unit time</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> all of the above</p><span
+                        class="ezoic-autoinsert-ad ezoic-longest_content"></span><span style="clear:both;display:block"
+                        id="ez-clearholder-leader-1"></span><span
+                        class="ezoic-ad ezoic-at-0 leader-1 leader-1560 adtester-container adtester-container-560"
+                        data-ez-name="mcqmate_com-leader-1"><span id="div-gpt-ad-mcqmate_com-leader-1-0" ezaw="250"
+                            ezah="250"
+                            style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto!important;margin-right:auto!important;min-height:400px;min-width:580px"
+                            class="ezoic-ad">
+                            <script data-ezscrex="false" data-cfasync="false"
+                                style="display:none">if (typeof ez_ad_units != 'undefined') { ez_ad_units.push([[250, 250], 'mcqmate_com-leader-1', 'ezslot_9', 560, '0', '0']) }; __ez_fad_position('div-gpt-ad-mcqmate_com-leader-1-0');</script>
+                        </span></span>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3194/the-output-quality-of-a-printer-is-measured-by"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">b.</span><span class="p">dot
+                            per inch</span></div>
+                </div>
+            </div>
+            <div class="card rounded-0 my-3 p-0 bg-transparent border-0"></div>
+            <div class="card rounded-0 my-3 shadow-sm mcq_card border border-dark">
+                <div class="card-header">
+                    <h2 class="h6 font-weight-bold question">25. Which of the following was a special purpose
+                        computer?</h2>
+                </div>
+                <div class="card-body ml-2 py-1 pt-2">
+                    <p class="options"><span class="text-uppercase h6">a.</span> abc</p>
+                    <p class="options"><span class="text-uppercase h6">B.</span> eniac</p>
+                    <p class="options"><span class="text-uppercase h6">c.</span> edvac</p>
+                    <p class="options"><span class="text-uppercase h6">d.</span> all of the above</p>
+                </div>
+                <div class="card-footer p-0 pl-2 mcq_footer"><span class="d-inline-block float-right mr-1"><a
+                            href="/discussion/3195/which-of-the-following-was-a-special-purpose-computer"
+                            target="_blank"><small>discuss</small></a></span>
+                    <div class="answer_holder rounded-0"><span class="h5 text-uppercase">a.</span><span
+                            class="p">abc</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="share_container d-none d-lg-block d-xl-block"><span
+                            class="sharethis-inline-share-buttons st-justified st-has-labels  st-inline-share-buttons st-animated"
+                            id="st-1">
+                            <div class="st-btn st-first    st-remove-label" data-network="whatsapp"
+                                style="display: none;">
+                                <img alt="whatsapp sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/whatsapp.svg">
+                                <span class="st-label">Share</span>
+                            </div>
+                            <div class="st-btn    st-remove-label" data-network="facebook" style="display: none;">
+                                <img alt="facebook sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/facebook.svg">
+                                <span class="st-label">Share</span>
+                            </div>
+                            <div class="st-btn    st-remove-label" data-network="twitter" style="display: none;">
+                                <img alt="twitter sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/twitter.svg">
+                                <span class="st-label">Tweet</span>
+                            </div>
+                            <div class="st-btn    st-remove-label" data-network="email" style="display: none;">
+                                <img alt="email sharing button" src="https://platform-cdn.sharethis.com/img/email.svg">
+                                <span class="st-label">Email</span>
+                            </div>
+                            <div class="st-btn st-last    st-remove-label" data-network="sharethis"
+                                style="display: inline-block;">
+                                <img alt="sharethis sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+                                <span class="st-label">Share</span>
+                            </div>
+                        </span></div>
+                </div>
+                <div class="col-6">
+                    <div class="float-right"><a href="https://mcqmate.com/topic/16/computer-fundamentals-set-2"
+                            class="btn btn-sm border rounded-0">Set 2 »</a></div>
+                </div>
+            </div>
+            <div class="card my-3 rounded-0 tagcloud01 bg-white mx-auto">
+                <div class="card-body p-1 rounded-0 m-auto">
+                    <ul class="m-auto border-0 pl-2 pt-2">
+                        <li class="m-auto active"><a class="bg-dark text-white"
+                                href="/topic/16/computer-fundamentals-set-1">1</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-2">2</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-3">3</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-4">4</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-5">5</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-6">6</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-7">7</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-8">8</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-9">9</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-10">10</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-11">11</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-12">12</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-13">13</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-14">14</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-15">15</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-16">16</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-17">17</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-18">18</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-19">19</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-20">20</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-21">21</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-22">22</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-23">23</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-24">24</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-25">25</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-26">26</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-27">27</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-28">28</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-29">29</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-30">30</a></li>
+                        <li class="m-auto active"><a href="/topic/16/computer-fundamentals-set-31">31</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tags_container my-3 description">
+                <h6>Tags</h6>
+                <h2 class="inline-block h6 font-weight-light">Question and answers in Computer Fundamentals,</h2>
+                <h2 class="inline-block h6 font-weight-light">Computer Fundamentals Multiple choice questions and
+                    answers,</h2>
+                <h2 class="inline-block h6 font-weight-light">Important MCQ of Computer Fundamentals,</h2>
+                <h2 class="inline-block h6 font-weight-light">Solved MCQs for Computer Fundamentals,</h2>
+                <h2 class="inline-block h6 font-weight-light">Computer Fundamentals MCQ with answers PDF download
+                </h2>
+            </div>
+
+
+        </div>
+
+
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy Policy</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2022 mcq.monster</p>
+            </footer>
+        </div>
+        <script>document.onkeydown = function (e) { if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { alert('not allowed'); return false; } }; </script>
+
+    </div>
+</body>
+
+
+</html>
